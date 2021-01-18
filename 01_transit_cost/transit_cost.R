@@ -1,5 +1,5 @@
 # info -------------------------------------------------------------------------
-# Script inspired havely David Robinson
+# Script inspired by havely David Robinson
 # Adapted by Jonas Büchi
 
 # Jan 2021, Week 01
