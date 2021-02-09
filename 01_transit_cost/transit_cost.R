@@ -20,7 +20,6 @@ tt <-  tt_load("2021-01-05")
 tt
 transit_cost <- tt$transit_cost
 
-
 # alternative loading
 #transit_cost <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-05/transit_cost.csv')
 
@@ -34,6 +33,8 @@ transit_cost <- transit_cost %>%
          country = countrycode(country_code, "iso2c", "country.name"),
          tunnel_per = tunnel / length,
          rr = ifelse(rr, "Railroad", "Not Railroad"))
+
+
 
 # Inspection of data -----------------------------------------------------------
 transit_cost %>%
